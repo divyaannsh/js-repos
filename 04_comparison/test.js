@@ -20,4 +20,19 @@ console.log(id== anotherId);
 //refrence type(non primitive)
       //arrray, objects,funtion   
 
-      
+     //stack(primitive),heap (non-primitive)
+     let myYoutubName = "divyansh"
+
+     let anothername =myYoutubName
+     anothername ="chaiaurcode"
+     console.log(anothername);
+     console.log(myYoutubName);
+
+     let userOne ={
+      email: "user@google",
+      upi: "1234"
+     }
+     let userTwo = userOne
+     userTwo.email ="hitsh@ooglr.com"
+     console.log(userOne.email);
+     console.log(userTwo.email);
