@@ -11,11 +11,11 @@ function sayMyName(){
     console.log("ger");
     
 }
-// sayMyName()
+sayMyName()
 
-// function addtwnumber(numebr1, number2){
-//     console.log(number2+numebr1);
-// }
+function addtwnumber(numebr1, number2){
+    console.log(number2+numebr1);
+}
 function addtwnumber(numebr1, number2){
     let result = number2+numebr1
     return result;
@@ -25,7 +25,7 @@ function addtwnumber(numebr1, number2){
 const result = addtwnumber(3,5)
 console.log("result:",result);
 
-// addtwnumber(3,4)
+addtwnumber(3,4)
 
 
 // function
