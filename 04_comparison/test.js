@@ -17,10 +17,10 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 console.log(id== anotherId);
-refrence type(non primitive)
-      arrray, objects,funtion   
+//refrence type(non primitive)
+      //arrray, objects,funtion   
 
-     stack(primitive),heap (non-primitive)
+     //stack(primitive),heap (non-primitive)
      let myYoutubName = "divyansh"
 
      let anothername =myYoutubName

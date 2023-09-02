@@ -5,7 +5,7 @@ tinderUser.name="edfd"
 tinderUser.isLoggedIn=false
 console.log(tinderUser);
 
-const regularUser ={
+const zregularUser ={
     email:"some@gai;.com",
     firstname:"gjdf"
 
