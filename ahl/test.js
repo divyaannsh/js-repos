@@ -38,3 +38,4 @@ fetch(url, {
   .catch((error) => {
     console.error(error.message);
   });
+  console.log("Bearer token not found in the response.");
