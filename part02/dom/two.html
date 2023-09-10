@@ -23,5 +23,17 @@ for(let i=0; i< parent.children.length; i++) {
 }
 parent.children[1].style.color="orange"
 console.log(parent.firstElementChild);
+function addLanguage(langName){
+    const li = document.createElement('li');
+    li.innerHTML = `${langName}`
+    document.querySelector('.language').appendChild(li)
+
+}
+addLanguage("pythin")
+addLanguage("typescript")
+
+function addOptiLanguage(langName){
+    const li = document.createElement('li')
+}
 </script>
 </html>
