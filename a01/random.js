@@ -12,9 +12,9 @@ const randomColor =function (){
 };
  const startChangingColor
 const startChangingColor = function(){
-    intervalid= set INterva; (changingbgColor,2000);
+    intervalid= set intervalid; (changingbgColor,2000);
 }
 
 document.querySelector("#start").addEventListener('click',startChangingColor)
 
-document.querySelector("#stdp").addEventListener('click',startChangingColor)
+document.querySelector("#stop").addEventListener('click',startChangingColor)
