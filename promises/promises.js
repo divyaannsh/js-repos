@@ -30,3 +30,13 @@ PromiseThree.then(function(){
 
 })
 // console.log("promise consume");
+
+const promisefive = new Promise(function(resolve,reject){
+
+})
+
+
+async function consumerPromiseFive({
+    const response = await promisefive
+    console.log(response);
+}) 
