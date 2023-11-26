@@ -14,6 +14,6 @@ accountCity = "jaipur"
  accountPassword ="ejees"
 
  accountCity ="jddd"
-
+ 
  console.log(accountId)
  console.table([accountId,accountEmail,accountCity,accountPassword]);
