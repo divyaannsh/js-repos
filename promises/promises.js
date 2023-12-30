@@ -8,7 +8,7 @@ const promiseOne  = new Promise(function(resolve,reject){
 })
 
 promiseOne.then(function(){
-    console.log("promise consume");
+    console.log("promise consumed");
 })
 
 new Promise(function(resolve,reject){
@@ -16,17 +16,18 @@ new Promise(function(resolve,reject){
         console.log("Async task 2");
 resolve()
     },1000)
-}).then function(){
-    console.log("Async 2 revolved");
-}
+}).then (function(){
+  console.log("Async 2 revolved");
+})
 
 
-const PromiseThree = new Promise(Function (resolve, reject){
+const PromiseThree = new Promise(function (resolve, reject){
     setTimeout(function(){
            resolve({username:"chai", email :"chai@exampl.e"})
     },1000)
 })
-PromiseThree.then(function(){
+PromiseThree.then(function(user){
+    console.log(user);
 
 })
 // console.log("promise consume");
@@ -39,4 +40,3 @@ const promisefive = new Promise(function(resolve,reject){
 async function consumerPromiseFive({
     const response = await promisefive
     console.log(response);
-}) 
